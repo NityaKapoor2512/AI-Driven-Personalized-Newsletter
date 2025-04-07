@@ -14,7 +14,7 @@ nltk.download("vader_lexicon")
 sia = SentimentIntensityAnalyzer()
 
 # Configure the AI model with an API key (this key should be stored securely in real applications)
-palm.configure(api_key="AIzaSyCNGFYrNH2wroEgmD7WX-k5Z5-MFgmgLCA")
+palm.configure(api_key="enter you key here")
 
 # Define user profiles with their interests and preferred news sources
 user_personas = {
